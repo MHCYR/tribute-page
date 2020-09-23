@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Lato:ital,wght@0,400;1,300;1,400;1,700&display=swap');
+
+body, ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eaeceb;
+}
+
+header{
+    padding: 5px;
+
+}
+
+.content-title {
+    font-family: 'Architects Daughter', cursive;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #47484f
+}
+
+#title{
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    letter-spacing: 20px;
+    font-size: 50px;
+    color: #47484f;
+
+}
+
+#img-div {
+    background-color: whitesmoke;
+    width: 95%;
+    height: auto;
+    margin: auto;
+    padding-top: 10px;
+}
+
+img{
+    display: block;
+    max-width: 70%;
+    height: auto;
+    margin: auto;
+}
+
+#img-caption {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 400;
+    width: 75%;
+    margin: auto;
+    line-height: 40px;
+    padding-top: 15px;
+    color: #878c97;
+}
+
+#quote-reference {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9em;
+    font-style: italic;
+    font-weight: 300;
+    
+}
+
+#tribute-info {
+    padding-top: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.text-info{
+    font-family: 'Lato', sans-serif;
+    font-size: 17.5px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+#discography {
+    width: 90%;
+    margin: auto;
+}
+
+ul{
+    padding-top: 10px ;
+}
+li{
+    font-family: 'Lato', sans-serif;
+    font-size: 17.5px;
+    font-weight: 400;
+    margin-left: 32px;
+    line-height: 35px;;
+}
+
+#more-about{
+    padding-top: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+#button-links {
+    display: flex;
+    background-color: #71b6bf;
+    justify-content: space-evenly;
+}
+
+
+.links{
+    list-style: none;
+    border: solid black;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+    
+
+
+.links a{
+    text-decoration: none;
+    
+}
+
+
+
+
+
+

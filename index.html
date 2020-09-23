@@ -3,25 +3,26 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-        <title>Tribute Page</title>
+        <title>Nujabes</title>
         <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
         <header>
-            <h1>NUJABES</h1>
+            <h1 id="title">NUJABES</h1>
         </header>
         <div id="img-div">
             <img src="nujabes-banner.jpg" alt="Nujabes banner draw">
-            <p id="img-caption">"The rhymes will heal cause I believe in music In times of need I won't be leaving you sick" </p>
-            <p id="quote-reference">Luv(sic) Part 2 - Nujabes</p>
+            <p id="img-caption">"The rhymes will heal cause I believe in music, in times of need I won't be leaving you sick"<span id="quote-reference">– Nujabes (Luv(sic) Part 2)</span></p>
         </div>
         <main id="main">
-            <section id="about-him">
-                <h2>About him</h2>
-                <p id="tribute-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta iste ipsam nesciunt non. Quisquam consequatur porro voluptate voluptates aperiam qui soluta, labore atque perferendis optio alias veniam maiores, aliquam quam?</p>
+            <section id="tribute-info">
+                <h2 class="content-title">About him</h2>
+                <p class="text-info"> Jun Seba (瀬葉淳, Seba Jun, February 7, 1974 – February 26, 2010), born in the Nishi-Azabu district of Minato, was a Japanese record producer, DJ, composer and arranger who recorded under the stage name Nujabes. Nujabes (pronounced /ˈnudʒɑːbɛs/) was an anagram of his name, being the reverse spelling of Seba Jun. His style mixes hip hop and jazz samples. </p>
+                <p class="text-info"> One of his most recognizable works is that of the background music for Shinichirō Watanabe's series Samurai Champloo (Music Record: Departure and Impression) in 2004.</p>
+                <p class="text-info">On February 26, 2010 Jun Seba died in a traffic accident. Following his death, numerous tributes were made by other artists from around the world.</p>
             </section>
             <section id="discography">
-                <h2>Discography</h2>
+                <h2 class="content-title">Discography</h2>
                 <ul>
                     <li>2003: <span>Metaphorical Music</span></li>
                     <li>2005: <span>Modal Soul</span></li>
@@ -30,10 +31,11 @@
             </section>
         </main>
         <div id="more-about">
-            <p>You can read more about nujabes on his Wikepedia entry and listen to his music on his Spotify profile:</p>
-            <ul>
-            <li><a target="_blank" href="https://en.wikipedia.org/wiki/Nujabes">Wikipedia</a></li>
-            <li><a target="_blank" href="https://open.spotify.com/artist/3Rq3YOF9YG9YfCWD4D56RZ">Spotify</a></li>
+            <h2 class="content-title">More About</h2>
+            <p class="text-info">You can read more about Nujabes on his Wikipedia entry and listen to his music on his Spotify profile:</p>
+            <ul id="button-links">
+                <li class="links"><a target="_blank" href="https://en.wikipedia.org/wiki/Nujabes">Wikipedia</a></li>
+                <li class="links"><a target="_blank" href="https://open.spotify.com/artist/3Rq3YOF9YG9YfCWD4D56RZ">Spotify</a></li>
             </ul>
         </div>
     </body>
